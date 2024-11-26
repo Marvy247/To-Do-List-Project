@@ -1,88 +1,41 @@
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ccc;
     margin: 0;
-    padding: 0;
-}
-
-.container {
-    width: 500px;
-    height: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    background: #eee;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow-y: auto; /* Allow vertical scrolling if content overflows */
-}
-
-h1 {
-    text-align: center;
-    color: #1f0101;
-    font-size: 3rem;
-    text-shadow: 1px 1px #1f0101;
-    background-color: #cfcbcb;
-}
-
-form {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-input[type="text"] {
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button {
-    padding: 10px;
-    background-color: #28a745;
+    font-family: 'Open-Sans', sans-serif;
+    color: rgb(44, 41, 44);
+    background-color: rgb(247, 239, 247);
+  }
+  
+  #main-header {
+    background-color: rgb(140, 0, 255);
     color: white;
-    border: none;
-    border-radius: 5px;
+    padding: 2rem 5%;
+    text-align: center;
+  }
+  
+  .btn {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(140, 0, 255);
+    border: 1px solid rgb(140, 0, 255);
+    color: white;
+    border-radius: 4px;
     cursor: pointer;
-    margin-left: 5px;
-}
-
-button:hover {
-    background-color: #218838;
-}
-
-ul {
-    list-style: circle;
-    padding-left: 10px;
-    background-color: #85101b;
-    color: #fff;
-    border-radius: 5px;
-    margin-top: 2rem;
-    max-height: 300px; 
-    overflow-y: auto; 
-
-li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 10px; 
-
-
-li:last-child {
-    margin-bottom: 0; 
-}
-
-.delete-button {
-    background-color: #f8f5f5;
-    color: rgb(40, 16, 0);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.delete-button:hover {
-    background-color: #c69095;
-    color: #fff;
-}
+  }
+  
+  .btn-alt {
+    background-color: transparent;
+    border-color: transparent;
+    color: rgb(140, 0, 255);
+  }
+  
+  .btn:hover {
+    background-color: rgb(79, 10, 190);
+    border-color: rgb(79, 10, 190);
+  }
+  
+  .btn-alt:hover {
+    background-color: rgb(230, 201, 252);
+    border-color: transparent;
+  }
+  
